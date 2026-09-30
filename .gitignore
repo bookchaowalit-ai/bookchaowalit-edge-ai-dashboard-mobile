@@ -1,0 +1,44 @@
+# Secrets and local config (never commit)
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+
+# JavaScript / Expo / React Native
+node_modules/
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Android / Gradle
+.gradle/
+local.properties
+*.apk
+*.aab
+
+# iOS / Xcode
+ios/Pods/
+xcuserdata/
+DerivedData/
+*.ipa
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+coverage/
